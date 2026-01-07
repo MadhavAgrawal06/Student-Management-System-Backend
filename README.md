@@ -69,9 +69,13 @@ You can see the live frontend connected to this backend here:
 ### Example Screenshots
 
 ![Students List](screenshots/showAll.png)
-![Student Search](screenshots/sh/wA.png)    
-![Add Student](screenshots/add.png)  
-![Update Student](screenshots/update.png)  
+---
+![Student Search](screenshots/show.png)   
+--- 
+![Add Student](screenshots/add.png) 
+--- 
+![Update Student](screenshots/update.png)
+---  
 ![Delete Student](screenshots/delete.png)
 
 ---
