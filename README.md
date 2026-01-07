@@ -10,7 +10,7 @@ This application provides APIs for managing student records and connects to a **
 
 - **Backend API Base URL:** [https://student-management-system-backend-jssl.onrender.com](https://student-management-system-backend-jssl.onrender.com)  
 - **Students Endpoint:** [https://student-management-system-backend-jssl.onrender.com/students](https://student-management-system-backend-jssl.onrender.com/students)
-  *Note: The backend is hosted on a free instance, and may take ~1 minute to wake up on the first request.*   
+- *Note: The backend is hosted on a free instance, and may take ~1 minute to wake up on the first request.*   
 - **Frontend Live Demo:** [https://fullstack-studentdb-madhav.netlify.app/](https://fullstack-studentdb-madhav.netlify.app/)
 
 ---
