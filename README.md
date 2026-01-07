@@ -53,6 +53,7 @@ This application provides APIs for managing student records and connects to a **
 
 | Method | Endpoint                  | Description                     | Request Body Example                                  |
 |--------|---------------------------|---------------------------------|-------------------------------------------------------|
+| GET    | `/`                       | Displays welcome message        | None                                                  |
 | GET    | `/students`               | Get all students                | None                                                  |
 | GET    | `/students/{rollno}`      | Get student by rollno           |`{ "Roll no":12}`                                      |
 | POST   | `/students`               | Add a new student               |`{ "name": "John", "Roll no":12, "Age":23, "Marks":99 }`|

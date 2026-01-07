@@ -35,6 +35,14 @@ private static final String URL =
 private static final String USER = System.getenv("MYSQLUSER");
 private static final String PASS = System.getenv("MYSQLPASSWORD");
 
+
+//for backend url
+    @GetMapping("/")
+    public String welcome() {
+        return "Welcome to the Student Management API! Go to /students to see data.";
+    }
+
+    
     /* ---------------- SHOW ALL ---------------- */
     @GetMapping("/students")
     public List<Student> showAll() throws Exception {
