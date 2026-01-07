@@ -54,10 +54,10 @@ This application provides APIs for managing student records and connects to a **
 | Method | Endpoint                  | Description                     | Request Body Example                                  |
 |--------|---------------------------|---------------------------------|-------------------------------------------------------|
 | GET    | `/students`               | Get all students                | None                                                  |
-| GET    | `/students/{rollno}`      | Get student by ID               | None                                                  |
+| GET    | `/students/{rollno}`      | Get student by rollno           |`{ "Roll no":12}`                                      |
 | POST   | `/students`               | Add a new student               |`{ "name": "John", "Roll no":12, "Age":23, "Marks":99 }`|
-| PUT    | `/students/{rollno}`      | Update student by ID            |`{ "name": "John", "Roll no":12, "Age":23, "Marks":76 }`|
-| DELETE | `/students/{rollno}`      | Delete student by ID            | None                                                  |
+| PUT    | `/students/{rollno}`      | Update student by rollno        |`{ "name": "John", "Roll no":12, "Age":23, "Marks":76 }`|
+| DELETE | `/students/{rollno}`      | Delete student by rollno        |`{ "Roll no":12}`                                      |
 
 ---
 
@@ -68,11 +68,11 @@ You can see the live frontend connected to this backend here:
 
 ### Example Screenshots
 
-![Students List](screenshots\showAll.png)
-![Student Search](screenshots\showA.png)    
-![Add Student](screenshots\add.png)  
-![Update Student](screenshots\update.png)  
-![Delete Student](screenshots\delete.png)
+![Students List](screenshots/showAll.png)
+![Student Search](screenshots/sh/wA.png)    
+![Add Student](screenshots/add.png)  
+![Update Student](screenshots/update.png)  
+![Delete Student](screenshots/delete.png)
 
 ---
 
