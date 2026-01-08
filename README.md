@@ -6,6 +6,11 @@ This application provides APIs for managing student records and connects to a **
 
 ---
 
+🔗 **Frontend Repository:**  
+👉 [Student Management System – Frontend](https://github.com/MadhavAgrawal06/Student-Management-System-Frontend)
+
+---
+
 ## 🚀 Live Links
 
 - **Backend API Base URL:** [https://student-management-system-backend-jssl.onrender.com](https://student-management-system-backend-jssl.onrender.com)  
