@@ -2,7 +2,9 @@
 
 ### **Project Overview**
 A RESTful **Student Management System backend** built using **Spring Boot**.  
-This application provides APIs for managing student records and connects to a **MySQL** database using **JDBC**. It serves as the backend for the React-based frontend application.
+This application provides APIs to manage student records and persists data in a **MySQL database** using **Spring Data JPA (Hibernate)**.
+
+It serves as the backend for a **React-based frontend application**.
 
 ---
 
@@ -14,9 +16,9 @@ This application provides APIs for managing student records and connects to a **
 ## 🚀 Live Links
 
 - **Backend API Base URL:** [https://student-management-system-backend-jssl.onrender.com](https://student-management-system-backend-jssl.onrender.com)  
-- **Students Endpoint:** [https://student-management-system-backend-jssl.onrender.com/students](https://student-management-system-backend-jssl.onrender.com/students)
-- *Note: The backend is hosted on a free instance, and may take ~1 minute to wake up on the first request.*   
+- **Students Endpoint:** [https://student-management-system-backend-jssl.onrender.com/students](https://student-management-system-backend-jssl.onrender.com/students)  
 - **Frontend Live Demo:** [https://fullstack-studentdb-madhav.netlify.app/](https://fullstack-studentdb-madhav.netlify.app/)
+- *Note: The backend is hosted on a free instance, and may take ~1 minute to wake up on the first request.* 
 
 ---
 
@@ -30,9 +32,11 @@ This application provides APIs for managing student records and connects to a **
 
 ### 🔒 Technical Features
 - RESTful API design  
-- JDBC-based database interaction  
-- CORS configuration for frontend integration  
-- Exception handling and validation  
+- Spring Data JPA with Hibernate ORM  
+- MySQL database integration  
+- CORS configuration for frontend communication  
+- Global exception handling  
+- Environment-based configuration (local & production)
 
 ---
 
@@ -41,9 +45,10 @@ This application provides APIs for managing student records and connects to a **
 - **Backend Framework:** Spring Boot  
 - **Language:** Java  
 - **Database:** MySQL  
-- **Database Access:** JDBC  
+- **ORM:** Spring Data JPA (Hibernate)   
 - **Build Tool:** Maven  
-- **Deployment:** Render  
+- **Deployment:** Render
+- **Frontend Hosting:** Netlify 
 
 ---
 
